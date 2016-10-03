@@ -28,7 +28,7 @@ if ($departmentID == NULL || $departmentID == FALSE) {
     $departmentID = $departments[0][0];
 }
     
-// Get name for selected category
+// Get name for selected department
 $queryDepartment = 'SELECT departmentName FROM department  WHERE departmentID = :departmentID';
 $statement2 = $db->prepare($queryDepartment);
 $statement2->bindValue(':departmentID', $departmentID);
@@ -63,7 +63,7 @@ $statement3->closeCursor();
     <hr>
     <h1>Courses List</h1>
     <aside>
-        <!-- display a list of categories -->
+        <!-- display a list of departments -->
         <h2>Departments</h2>
         <nav>
         <ul>

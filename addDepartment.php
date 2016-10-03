@@ -14,6 +14,7 @@ if ($departmentName != null && strlen($departmentName) > 0) {
     $addStatement->execute();
 
 }
-//header("Location: department_list.php");
+
+header("Location: department_list.php");
 die();
 ?>

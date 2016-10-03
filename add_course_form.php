@@ -6,7 +6,22 @@
  * Time: 7:08 PM
  */
 
+/**<select name="question2">
+<option selected="selected">Romance/ Reality TV</option>
+<option>Action/ Thriller /Crime</option>
+<option>Drama/ Documentary/Natural Films</option>
+<option>Comedy / Animation</option>
+<option>Science Fiction/ Fantasy</option>
 
+</select>*/
+require_once('database.php');
+
+// Get all departments
+$queryAllDepartments = 'SELECT * FROM department ORDER BY departmentID';
+$statement1 = $db->prepare($queryAllDepartments);
+$statement1->execute();
+$departments = $statement1->fetchAll();
+$statement1->closeCursor();
 
 
 ?>
@@ -23,4 +38,31 @@
 <main>
     <h1 style="color: black">University Courses Manager</h1>
     <hr>
-    <h1>Department List</h1>
+    <h1>Add Course</h1>
+
+    <form method="post" action="addCourse.php">
+
+        <label>Department:</label>
+        <select name="department">
+            <?php foreach ($departments as $department) : ?>
+            <option><?php echo $department['departmentName']; ?>
+            <?php endforeach; ?>
+        </select>
+        <br>
+
+        <label>Code: </label><input type="number" name="code" required>
+        <br>
+        <label>Title: </label><input type="text" name="Title" required>
+        <br>
+        <label>Credits :</label><input type="number" name="credits" step="1" required>
+        <br><br>
+        <label>Description: </label><textarea name="description" rows="5" cols="40" required placeholder="Add description here..."></textarea>
+
+        <button type="submit" value="Add Course">Add Course</button>
+    </form>
+
+    <p>
+        <a href="index.php">
+            View Course List
+        </a>
+    </p>
