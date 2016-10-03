@@ -2,9 +2,9 @@
 require_once('database.php');
 
 $departmentName = filter_input(INPUT_POST,'departmentName');
-print_r($departmentName);
+//print_r($departmentName);
 if ($departmentName != null && strlen($departmentName) > 0) {
-    print_r($departmentName);
+    //print_r($departmentName);
 
 
     $addDepartment = "INSERT INTO department(departmentName) VALUES (:departmentName);";

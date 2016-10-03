@@ -46,7 +46,7 @@ $statement1->closeCursor();
         <select name="departmentID">
             <?php foreach ($departments as $department) : ?>
             <option value="<?php echo $department['departmentID']; ?>"><?php echo $department['departmentName'] . $department['departmentID']; ?>
-            <?php endforeach; ?>
+                <?php endforeach; ?>
         </select>
         <br>
 

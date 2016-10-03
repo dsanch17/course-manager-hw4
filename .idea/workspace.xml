@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be571033-0284-4881-949c-0e23a3343c05" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/course_update_form" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/addCourse.php" afterPath="$PROJECT_DIR$/addCourse.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/addDepartment.php" afterPath="$PROJECT_DIR$/addDepartment.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/add_course_form.php" afterPath="$PROJECT_DIR$/add_course_form.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deleteCourse.php" afterPath="$PROJECT_DIR$/deleteCourse.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deleteDepartment.php" afterPath="$PROJECT_DIR$/deleteDepartment.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
     <ignored path="HW04.iws" />
@@ -46,41 +50,76 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="deleteDepartment.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/deleteDepartment.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="56" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
+              <folding>
+                <marker date="1475526366000" expanded="true" signature="118:175" ph="DELETE FROM " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="124" column="11" selection-start-line="124" selection-start-column="11" selection-end-line="124" selection-end-column="11" />
+            <state relative-caret-position="133">
+              <caret line="103" column="57" selection-start-line="103" selection-start-column="57" selection-end-line="103" selection-end-column="57" />
               <folding>
                 <element signature="e#6#82#0#PHP" expanded="true" />
-                <marker date="1475523556000" expanded="true" signature="333:379" ph="SELECT * FRO... department" />
-                <marker date="1475523556000" expanded="true" signature="823:896" ph="SELECT depar... department" />
-                <marker date="1475523556000" expanded="true" signature="1264:1332" ph="SELECT * FRO... courses" />
+                <marker date="1475526672000" expanded="true" signature="333:379" ph="SELECT * FRO... department" />
+                <marker date="1475526672000" expanded="true" signature="823:896" ph="SELECT depar... department" />
+                <marker date="1475526672000" expanded="true" signature="1264:1332" ph="SELECT * FRO... courses" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="add_course_form.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="course_update_form" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/course_update_form">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="38" column="38" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
+              <folding>
+                <element signature="e#6#87#0#PHP" expanded="true" />
+                <marker date="1475526807000" expanded="true" signature="435:481" ph="SELECT * FRO... department" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="database.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="deleteCourse.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/deleteCourse.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+              <folding>
+                <marker date="1475526608000" expanded="true" signature="166:205" ph="DELETE FROM " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="add_course_form.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/add_course_form.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="179">
-              <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
+              <caret line="39" column="8" selection-start-line="0" selection-start-column="0" selection-end-line="67" selection-end-column="8" />
               <folding>
                 <element signature="e#6#87#0#PHP" expanded="true" />
-                <marker date="1475525158000" expanded="true" signature="435:481" ph="SELECT * FRO... department" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="addDepartment.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/addDepartment.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-              <folding>
-                <marker date="1475525228000" expanded="true" signature="240:303" ph="INSERT INTO department... " />
+                <marker date="1475526093000" expanded="true" signature="435:481" ph="SELECT * FRO... department" />
               </folding>
             </state>
           </provider>
@@ -89,9 +128,11 @@
       <file leaf-file-name="addCourse.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/addCourse.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-              <folding />
+            <state relative-caret-position="390">
+              <caret line="26" column="29" selection-start-line="26" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+              <folding>
+                <marker date="1475526255000" expanded="true" signature="305:453" ph="INSERT INTO courses... " />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -108,11 +149,14 @@
         <option value="$PROJECT_DIR$/main.css" />
         <option value="$PROJECT_DIR$/department_list.php" />
         <option value="$PROJECT_DIR$/updateDepartment.php" />
-        <option value="$PROJECT_DIR$/deleteDepartment.php" />
         <option value="$PROJECT_DIR$/department_update_form.php" />
-        <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/add_course_form.php" />
         <option value="$PROJECT_DIR$/addDepartment.php" />
+        <option value="$PROJECT_DIR$/add_course_form.php" />
+        <option value="$PROJECT_DIR$/addCourse.php" />
+        <option value="$PROJECT_DIR$/deleteDepartment.php" />
+        <option value="$PROJECT_DIR$/deleteCourse.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/course_update_form" />
       </list>
     </option>
   </component>
@@ -277,7 +321,7 @@
       <workItem from="1475214543005" duration="133000" />
       <workItem from="1475214686784" duration="1332000" />
       <workItem from="1475292575325" duration="128000" />
-      <workItem from="1475522862339" duration="2302000" />
+      <workItem from="1475522862339" duration="3834000" />
     </task>
     <task id="LOCAL-00001" summary="deleted legacy file, added TODO">
       <created>1475216194330</created>
@@ -286,11 +330,18 @@
       <option name="project" value="LOCAL" />
       <updated>1475216194330</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="created add_course_form.php">
+      <created>1475525280573</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1475525280573</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14135000" />
+    <option name="totallyTimeSpent" value="15667000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
@@ -348,7 +399,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="deleted legacy file, added TODO" />
-    <option name="LAST_COMMIT_MESSAGE" value="deleted legacy file, added TODO" />
+    <MESSAGE value="created add_course_form.php" />
+    <option name="LAST_COMMIT_MESSAGE" value="created add_course_form.php" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -370,7 +422,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
           <folding>
-            <marker date="1475212742000" expanded="true" signature="204:261" ph="DELETE FROM " />
+            <marker date="1475526366000" expanded="true" signature="118:175" ph="DELETE FROM " />
           </folding>
         </state>
       </provider>
@@ -390,7 +442,7 @@
         <state relative-caret-position="90">
           <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
           <folding>
-            <marker date="1475525228000" expanded="true" signature="240:303" ph="INSERT INTO department... " />
+            <marker date="1475525356000" expanded="true" signature="244:307" ph="INSERT INTO department... " />
           </folding>
         </state>
       </provider>
@@ -412,9 +464,9 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#6#82#0#PHP" expanded="true" />
-            <marker date="1475523556000" expanded="true" signature="333:379" ph="SELECT * FRO... department" />
-            <marker date="1475523556000" expanded="true" signature="823:896" ph="SELECT depar... department" />
-            <marker date="1475523556000" expanded="true" signature="1264:1332" ph="SELECT * FRO... courses" />
+            <marker date="1475526672000" expanded="true" signature="333:379" ph="SELECT * FRO... department" />
+            <marker date="1475526672000" expanded="true" signature="823:896" ph="SELECT depar... department" />
+            <marker date="1475526672000" expanded="true" signature="1264:1332" ph="SELECT * FRO... courses" />
           </folding>
         </state>
       </provider>
@@ -434,7 +486,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
           <folding>
-            <marker date="1475212742000" expanded="true" signature="204:261" ph="DELETE FROM " />
+            <marker date="1475526366000" expanded="true" signature="118:175" ph="DELETE FROM " />
           </folding>
         </state>
       </provider>
@@ -454,7 +506,7 @@
         <state relative-caret-position="90">
           <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
           <folding>
-            <marker date="1475525228000" expanded="true" signature="240:303" ph="INSERT INTO department... " />
+            <marker date="1475525356000" expanded="true" signature="244:307" ph="INSERT INTO department... " />
           </folding>
         </state>
       </provider>
@@ -476,9 +528,9 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#6#82#0#PHP" expanded="true" />
-            <marker date="1475523556000" expanded="true" signature="333:379" ph="SELECT * FRO... department" />
-            <marker date="1475523556000" expanded="true" signature="823:896" ph="SELECT depar... department" />
-            <marker date="1475523556000" expanded="true" signature="1264:1332" ph="SELECT * FRO... courses" />
+            <marker date="1475526672000" expanded="true" signature="333:379" ph="SELECT * FRO... department" />
+            <marker date="1475526672000" expanded="true" signature="823:896" ph="SELECT depar... department" />
+            <marker date="1475526672000" expanded="true" signature="1264:1332" ph="SELECT * FRO... courses" />
           </folding>
         </state>
       </provider>
@@ -498,7 +550,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
           <folding>
-            <marker date="1475212742000" expanded="true" signature="204:261" ph="DELETE FROM " />
+            <marker date="1475526366000" expanded="true" signature="118:175" ph="DELETE FROM " />
           </folding>
         </state>
       </provider>
@@ -518,7 +570,7 @@
         <state relative-caret-position="90">
           <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
           <folding>
-            <marker date="1475525228000" expanded="true" signature="240:303" ph="INSERT INTO department... " />
+            <marker date="1475525356000" expanded="true" signature="244:307" ph="INSERT INTO department... " />
           </folding>
         </state>
       </provider>
@@ -540,9 +592,9 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#6#82#0#PHP" expanded="true" />
-            <marker date="1475523556000" expanded="true" signature="333:379" ph="SELECT * FRO... department" />
-            <marker date="1475523556000" expanded="true" signature="823:896" ph="SELECT depar... department" />
-            <marker date="1475523556000" expanded="true" signature="1264:1332" ph="SELECT * FRO... courses" />
+            <marker date="1475526672000" expanded="true" signature="333:379" ph="SELECT * FRO... department" />
+            <marker date="1475526672000" expanded="true" signature="823:896" ph="SELECT depar... department" />
+            <marker date="1475526672000" expanded="true" signature="1264:1332" ph="SELECT * FRO... courses" />
           </folding>
         </state>
       </provider>
@@ -562,7 +614,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
           <folding>
-            <marker date="1475212742000" expanded="true" signature="204:261" ph="DELETE FROM " />
+            <marker date="1475526366000" expanded="true" signature="118:175" ph="DELETE FROM " />
           </folding>
         </state>
       </provider>
@@ -582,7 +634,7 @@
         <state relative-caret-position="90">
           <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
           <folding>
-            <marker date="1475525228000" expanded="true" signature="240:303" ph="INSERT INTO department... " />
+            <marker date="1475525356000" expanded="true" signature="244:307" ph="INSERT INTO department... " />
           </folding>
         </state>
       </provider>
@@ -604,9 +656,9 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#6#82#0#PHP" expanded="true" />
-            <marker date="1475523556000" expanded="true" signature="333:379" ph="SELECT * FRO... department" />
-            <marker date="1475523556000" expanded="true" signature="823:896" ph="SELECT depar... department" />
-            <marker date="1475523556000" expanded="true" signature="1264:1332" ph="SELECT * FRO... courses" />
+            <marker date="1475526672000" expanded="true" signature="333:379" ph="SELECT * FRO... department" />
+            <marker date="1475526672000" expanded="true" signature="823:896" ph="SELECT depar... department" />
+            <marker date="1475526672000" expanded="true" signature="1264:1332" ph="SELECT * FRO... courses" />
           </folding>
         </state>
       </provider>
@@ -626,33 +678,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/deleteCourse.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/old/alterDatabase.php" />
-    <entry file="file://$PROJECT_DIR$/deleteDepartment.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="5" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-          <folding>
-            <marker date="1475212742000" expanded="true" signature="204:261" ph="DELETE FROM " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/updateDepartment.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -674,19 +700,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="124" column="11" selection-start-line="124" selection-start-column="11" selection-end-line="124" selection-end-column="11" />
-          <folding>
-            <element signature="e#6#82#0#PHP" expanded="true" />
-            <marker date="1475523556000" expanded="true" signature="333:379" ph="SELECT * FRO... department" />
-            <marker date="1475523556000" expanded="true" signature="823:896" ph="SELECT depar... department" />
-            <marker date="1475523556000" expanded="true" signature="1264:1332" ph="SELECT * FRO... courses" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/department_list.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="403">
@@ -697,20 +710,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addCourse.php">
+    <entry file="file://$PROJECT_DIR$/deleteDepartment.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-          <folding />
+        <state relative-caret-position="75">
+          <caret line="5" column="56" selection-start-line="5" selection-start-column="56" selection-end-line="5" selection-end-column="56" />
+          <folding>
+            <marker date="1475526366000" expanded="true" signature="118:175" ph="DELETE FROM " />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/addDepartment.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+        <state relative-caret-position="105">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
-            <marker date="1475525228000" expanded="true" signature="240:303" ph="INSERT INTO department... " />
+            <marker date="1475525356000" expanded="true" signature="244:307" ph="INSERT INTO department... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/addCourse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="29" selection-start-line="26" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding>
+            <marker date="1475526255000" expanded="true" signature="305:453" ph="INSERT INTO courses... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deleteCourse.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+          <folding>
+            <marker date="1475526608000" expanded="true" signature="166:205" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="103" column="57" selection-start-line="103" selection-start-column="57" selection-end-line="103" selection-end-column="57" />
+          <folding>
+            <element signature="e#6#82#0#PHP" expanded="true" />
+            <marker date="1475526672000" expanded="true" signature="333:379" ph="SELECT * FRO... department" />
+            <marker date="1475526672000" expanded="true" signature="823:896" ph="SELECT depar... department" />
+            <marker date="1475526672000" expanded="true" signature="1264:1332" ph="SELECT * FRO... courses" />
           </folding>
         </state>
       </provider>
@@ -718,10 +774,21 @@
     <entry file="file://$PROJECT_DIR$/add_course_form.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="179">
-          <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
+          <caret line="39" column="8" selection-start-line="0" selection-start-column="0" selection-end-line="67" selection-end-column="8" />
           <folding>
             <element signature="e#6#87#0#PHP" expanded="true" />
-            <marker date="1475525158000" expanded="true" signature="435:481" ph="SELECT * FRO... department" />
+            <marker date="1475526093000" expanded="true" signature="435:481" ph="SELECT * FRO... department" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/course_update_form">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="38" selection-start-line="38" selection-start-column="38" selection-end-line="38" selection-end-column="38" />
+          <folding>
+            <element signature="e#6#87#0#PHP" expanded="true" />
+            <marker date="1475526807000" expanded="true" signature="435:481" ph="SELECT * FRO... department" />
           </folding>
         </state>
       </provider>

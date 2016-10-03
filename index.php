@@ -101,6 +101,8 @@ $statement3->closeCursor();
                 <td>
                     <form method="post" action="deleteCourse.php">
                         <input type="hidden" name="crs_ID" value="<?php echo $course['crs_ID']; ?>">
+                        <input type="hidden" name="dep_id" value="<?php echo $course['dep_id']; ?>">
+
                         <button type="submit" value="delete" name="delete">Delete</button>
                     </form>
                 </td>
@@ -108,6 +110,8 @@ $statement3->closeCursor();
                 <td>
                     <form method="post" action="updateCourse.php">
                         <input type="hidden" name="crs_ID" value="<?php echo $course['crs_ID']; ?>">
+                        <input type="hidden" name="dep_id" value="<?php echo $course['dep_id']; ?>">
+
                         <button type="submit" value="update" name="update">Update</button>
                     </form>
                 </td>
