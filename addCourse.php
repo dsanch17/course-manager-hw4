@@ -6,7 +6,7 @@ $code = filter_input(INPUT_POST,'code');
 $credits = filter_input(INPUT_POST,'credits');
 $title = filter_input(INPUT_POST,'title');
 $description = filter_input(INPUT_POST,'description');
-//credits
+
 
 $addCourse = "INSERT INTO courses (crs_code, crs_title, crs_credits, dep_id, crs_description)
               VALUES (:code, :title, :credits, :depID, :description);";

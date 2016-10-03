@@ -74,7 +74,10 @@ $statement3->closeCursor();
         <br><br>
         <label>Description: </label><textarea name="description" rows="5" cols="40" required><?php echo $course['crs_description']; ?></textarea>
         <br>
-        <button type="submit" value="Add Course">Add Course</button>
+
+        <input type="hidden" name="courseID" value="<?php echo $courseID;?>">
+
+        <button type="submit" value="Update Course">Update Course</button>
     </form>
 
     <p>
