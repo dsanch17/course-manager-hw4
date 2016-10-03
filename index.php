@@ -108,9 +108,8 @@ $statement3->closeCursor();
                 </td>
 
                 <td>
-                    <form method="post" action="updateCourse.php">
+                    <form method="post" action="course_update_form.php">
                         <input type="hidden" name="crs_ID" value="<?php echo $course['crs_ID']; ?>">
-                        <input type="hidden" name="dep_id" value="<?php echo $course['dep_id']; ?>">
 
                         <button type="submit" value="update" name="update">Update</button>
                     </form>

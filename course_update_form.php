@@ -16,6 +16,9 @@
 </select>*/
 require_once('database.php');
 
+$courseID = filter_input(INPUT_POST,'crs_ID');
+
+
 // Get all departments
 $queryAllDepartments = 'SELECT * FROM department ORDER BY departmentID';
 $statement1 = $db->prepare($queryAllDepartments);
@@ -23,13 +26,21 @@ $statement1->execute();
 $departments = $statement1->fetchAll();
 $statement1->closeCursor();
 
+// Get data for selected course
+$queryCourse = 'SELECT * FROM courses WHERE crs_ID = :courseID';
+$statement3 = $db->prepare($queryCourse);
+$statement3->bindValue(':courseID', $courseID);
+$statement3->execute();
+$course = $statement3->fetch();
+$statement3->closeCursor();
+
 
 ?>
 <!DOCTYPE html>
 <html>
 <!-- the head section -->
 <head>
-    <title>Add Course</title>
+    <title>Update Course</title>
     <link rel="stylesheet" type="text/css" href="main.css" />
 </head>
 
@@ -38,25 +49,30 @@ $statement1->closeCursor();
 <main>
     <h1 style="color: black">University Courses Manager</h1>
     <hr>
-    <h1>Add Course</h1>
+    <h1>Update Course</h1>
 
-    <form method="post" action="addCourse.php">
+    <form method="post" action="updateCourse.php">
 
         <label>Department:</label>
         <select name="departmentID">
             <?php foreach ($departments as $department) : ?>
-            <option value="<?php echo $department['departmentID']; ?>"><?php echo $department['departmentName'] . $department['departmentID']; ?>
+
+            <option value="<?php echo $department['departmentID'];?>"
+                <?php if ($department['departmentID'] == $course['dep_id']) {
+                    echo ' selected = "selected"';
+                }
+                ?> > <?php echo $department['departmentName']; ?>
                 <?php endforeach; ?>
         </select>
         <br>
 
-        <label>Code: </label><input type="number" name="code" required>
+        <label>Code: </label><input type="number" name="code" required value="<?php echo $course['crs_code']; ?>">
         <br>
-        <label>Title: </label><input type="text" name="title" required>
+        <label>Title: </label><input type="text" name="title" required value="<?php echo $course['crs_title']; ?>">
         <br>
-        <label>Credits :</label><input type="number" name="credits" step="1" required>
+        <label>Credits :</label><input type="number" name="credits" step="1" required value="<?php echo $course['crs_credits']; ?>">
         <br><br>
-        <label>Description: </label><textarea name="description" rows="5" cols="40" required placeholder="Add description here..."></textarea>
+        <label>Description: </label><textarea name="description" rows="5" cols="40" required><?php echo $course['crs_description']; ?></textarea>
         <br>
         <button type="submit" value="Add Course">Add Course</button>
     </form>
