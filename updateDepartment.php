@@ -1,5 +1,10 @@
 <?php
-
+/**
+ * Homework4
+ * Group3_HW04.zip
+ * Dallas Sanchez
+ * Matthew Higgins
+ */
 
 require_once('database.php');
 

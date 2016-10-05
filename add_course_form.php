@@ -1,19 +1,12 @@
 <?php
+
 /**
- * Created by PhpStorm.
- * User: Dallas
- * Date: 9/29/16
- * Time: 7:08 PM
+ * Homework4
+ * Group3_HW04.zip
+ * Dallas Sanchez
+ * Matthew Higgins
  */
 
-/**<select name="question2">
-<option selected="selected">Romance/ Reality TV</option>
-<option>Action/ Thriller /Crime</option>
-<option>Drama/ Documentary/Natural Films</option>
-<option>Comedy / Animation</option>
-<option>Science Fiction/ Fantasy</option>
-
-</select>*/
 require_once('database.php');
 
 // Get all departments

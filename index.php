@@ -8,10 +8,6 @@
 
 require_once('database.php');
 
-//TODO: Part 4 of instructions:
-//TODO: Create HTML base for Add/Update course
-//TODO: Add relevant code to the add/delete/update course.php files to alter the database
-
 
 // Get all departments
 $queryAllDepartments = 'SELECT * FROM department ORDER BY departmentID';

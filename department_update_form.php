@@ -1,9 +1,9 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: Dallas
- * Date: 9/29/16
- * Time: 7:03 PM
+ * Homework4
+ * Group3_HW04.zip
+ * Dallas Sanchez
+ * Matthew Higgins
  */
 
 $departmentID = filter_input(INPUT_POST,'departmentID');

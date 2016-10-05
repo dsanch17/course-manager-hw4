@@ -2,7 +2,7 @@
 <html>
     <!-- the head section -->
     <head>
-        <title>My Guitar Shop</title>
+        <title>Error</title>
         <link rel="stylesheet" type="text/css" href="main.css">
     </head>
 
