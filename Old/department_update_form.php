@@ -16,7 +16,7 @@ $oldName = filter_input(INPUT_POST,'update');
 <!-- the head section -->
 <head>
     <title>Update Department</title>
-    <link rel="stylesheet" type="text/css" href="main.css" />
+    <link rel="stylesheet" type="text/css" href="../main.css" />
 </head>
 
 <!-- the body section -->
@@ -34,7 +34,7 @@ $oldName = filter_input(INPUT_POST,'update');
     </form>
 
     <p>
-        <a href="department_list.php">
+        <a href="../department_list.php">
             View Department List
         </a>
     </p>

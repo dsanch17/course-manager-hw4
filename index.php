@@ -1,9 +1,7 @@
 <?php
 /**
- * Homework4
- * Group3_HW04.zip
+ * ITIS 3105 Midterm
  * Dallas Sanchez
- * Matthew Higgins
  */
 
 require_once('database.php');
@@ -43,6 +41,13 @@ $statement3->execute();
 $courses = $statement3->fetchAll();
 $statement3->closeCursor();
 
+// Get all registered courses
+$queryRegCourses = 'SELECT crs_ID FROM reg_courses';
+$statement4 = $db->prepare($queryRegCourses);
+$statement4->execute();
+$registrationIDs = $statement4->fetchAll();
+$statement4->closeCursor();
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -77,6 +82,7 @@ $statement3->closeCursor();
     <section>
         <!-- display a table of products -->
         <h2><?php echo $department_name; ?></h2>
+
         <table>
             <tr>
                 <th>Code</th>
@@ -97,7 +103,14 @@ $statement3->closeCursor();
                     <form method="post" action="registerCourse.php">
                         <input type="hidden" name="crs_ID" value="<?php echo $course['crs_ID']; ?>">
 
-                        <button type="submit" value="register" name="register">Register</button>
+                        <button type="submit" value="register" name="register" <?php
+                        foreach ($registrationIDs as $regID) {
+                            if ($course['crs_ID'] == $regID[0]) {
+                            echo " disabled=\"disabled\"";
+                            }
+                        }
+
+                        ?> >Register</button>
                     </form>
                 </td>
 
@@ -108,7 +121,7 @@ $statement3->closeCursor();
 
 
         <p>
-        <a href="registered_list.php">
+        <a href="registered_Courses.php">
             See Registered Courses
         </a>
         </p>

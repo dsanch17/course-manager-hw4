@@ -23,7 +23,7 @@ $statement1->closeCursor();
 <!-- the head section -->
 <head>
     <title>Add Course</title>
-    <link rel="stylesheet" type="text/css" href="main.css" />
+    <link rel="stylesheet" type="text/css" href="../main.css" />
 </head>
 
 <!-- the body section -->
@@ -55,7 +55,7 @@ $statement1->closeCursor();
     </form>
 
     <p>
-        <a href="index.php">
+        <a href="../index.php">
             View Course List
         </a>
     </p>

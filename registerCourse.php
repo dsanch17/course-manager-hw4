@@ -1,10 +1,8 @@
 <?php
 
 /**
- * Homework4
- * Group3_HW04.zip
+ * ITIS 3105 Midterm
  * Dallas Sanchez
- * Matthew Higgins
  */
 
 require_once('database.php');
@@ -21,6 +19,6 @@ $registerStatement->execute();
 
 
 
-header("Location: .registered_Courses.php");
+header("Location: ./registered_Courses.php");
 die();
 ?>
