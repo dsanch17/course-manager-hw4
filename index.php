@@ -84,7 +84,6 @@ $statement3->closeCursor();
                 <th>Credits</th>
                 <th>Description</th>
                 <th></th>
-                <th></th>
             </tr>
 
             <?php foreach ($courses as $course) : ?>
@@ -95,38 +94,22 @@ $statement3->closeCursor();
                 <td><?php echo $course['crs_description']; ?></td>
 
                 <td>
-                    <form method="post" action="deleteCourse.php">
+                    <form method="post" action="registerCourse.php">
                         <input type="hidden" name="crs_ID" value="<?php echo $course['crs_ID']; ?>">
-                        <input type="hidden" name="dep_id" value="<?php echo $course['dep_id']; ?>">
 
-                        <button type="submit" value="delete" name="delete">Delete</button>
+                        <button type="submit" value="register" name="register">Register</button>
                     </form>
                 </td>
 
-                <td>
-                    <form method="post" action="course_update_form.php">
-                        <input type="hidden" name="crs_ID" value="<?php echo $course['crs_ID']; ?>">
-
-                        <button type="submit" value="update" name="update">Update</button>
-                    </form>
-                </td>
 
             </tr>
             <?php endforeach; ?>            
         </table>
 
 
-
         <p>
-        <a href="add_course_form.php">
-            Add Course
-        </a>
-        </p>
-
-
-        <p>
-        <a href="department_list.php">
-            List Departments
+        <a href="registered_list.php">
+            See Registered Courses
         </a>
         </p>
 
