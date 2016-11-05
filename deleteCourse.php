@@ -21,6 +21,6 @@ $deleteStatement->bindParam('cID', $courseID);
 $deleteStatement->execute();
 
 
-header("Location: index.php?departmentID=$departmentID");
+header("Location: student_home.php?departmentID=$departmentID");
 die();
 ?>

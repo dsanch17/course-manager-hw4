@@ -1,5 +1,5 @@
 <?php
-    $dsn = 'mysql:host=localhost;dbname=university';
+    $dsn = 'mysql:host=localhost;dbname=university_schema';
     $username = 'root';
     $password = 'password1';
 

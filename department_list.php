@@ -46,14 +46,14 @@ $statement1->closeCursor();
             </td>
 
             <td>
-                <form method="post" action="Old/deleteDepartment.php">
+                <form method="post" action="deleteDepartment.php">
                     <input type="hidden" name="departmentID" value="<?php echo $department['departmentID']; ?>">
                     <button type="submit" value="delete" name="delete">Delete</button>
                 </form>
             </td>
 
             <td>
-                <form method="post" action="Old/department_update_form.php">
+                <form method="post" action="department_update_form.php">
                     <input type="hidden" name="departmentID" value="<?php echo $department['departmentID']; ?>">
                     <button type="submit" value="<?php echo $department['departmentName'];?>" name="update">Update</button>
                 </form>
@@ -64,12 +64,12 @@ $statement1->closeCursor();
     </table> <br>
 
     <h2>Add Department</h2>
-    <form method="post" action="Old/addDepartment.php">
+    <form method="post" action="addDepartment.php">
         <label>Name:</label><input type="text" name="departmentName" required><button type="submit" value="Add">Add</button>
     </form>
 
     <p>
-        <a href="index.php">
+        <a href="student_home.php">
             List Courses
         </a>
     </p>

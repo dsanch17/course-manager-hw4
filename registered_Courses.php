@@ -75,7 +75,7 @@ function getCourseInfoFromID($db, $crs_ID)
     </table> <br>
 
     <p>
-        <a href="index.php">
+        <a href="student_home.php">
             Back to Registration
         </a>
     </p>

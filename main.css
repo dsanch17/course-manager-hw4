@@ -87,3 +87,24 @@ hr {
 .last_paragraph {
 	margin-bottom: 2em;	
 }
+
+.center {
+    text-align: center;
+}
+
+.loginButton {
+    background-color: #03bb12;
+    width: 101%;
+    height: 35px;
+    color: aliceblue;
+    font-weight: bold
+}
+
+.loginTextbox {
+    background-color: beige;
+    width: 100%
+}
+
+.errorMessage {
+    color: #f91700;
+}
