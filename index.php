@@ -5,20 +5,24 @@
  * Date: 11/5/16
  * Time: 1:38 AM
  */
+session_start();
 
 require_once('database.php');
 
 $error = false;
 
+//TODO: need to check for pre-existing session/cookie value
+
+//check if the post array had a username value sent to it
 if (isset( $_POST["username"]) ) {
     if (isset( $_POST["password"]) ) {
         $user = searchDBForUsername($db, $_POST["username"]);
         if ($user != null) {
             if ($user["password"] == $_POST["password"]) {
 
-                //need to check for if it's a student or a manager for redirect
+                //TODO: need to check for if it's a student or a manager for redirect
 
-                //need to set session/cookie value before redirecting
+                //TODO: need to set session/cookie value before redirecting
                 header("Location: ./registered_Courses.php");
                 die();
             }
@@ -77,7 +81,9 @@ function searchDBForUsername($db, $username)
         <input type="password" name="password" class="loginTextbox" required> <br>
         <br>
         <input type="submit" value="Login" class="loginButton">
+        <br>
 
+        <input type="checkbox" name="rememberBox"><label>Remember me</label>
 
     </form>
 
