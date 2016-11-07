@@ -20,11 +20,9 @@ if (isset( $_POST["username"]) ) {
         if ($user != null) {
             if ($user["password"] == $_POST["password"]) {
 
-                //TODO: need to check for if it's a student or a manager for redirect
-
                 //TODO: need to set session/cookie value before redirecting
-                header("Location: ./registered_Courses.php");
-                die();
+
+                redirectUserToHome($user);
             }
         }
 
@@ -50,6 +48,17 @@ function searchDBForUsername($db, $username)
     $queryUserPreperation->closeCursor();
 
     return $thisUser;
+}
+
+function redirectUserToHome($u) {
+    if ($u["role"] == "manager") {
+        header("Location: ./manager_home.php"); //manager redirect
+        die();
+    } else {
+        header("Location: ./student_home.php"); //student redirect
+        die();
+    }
+
 }
 
 
