@@ -4,6 +4,7 @@
     <list default="true" id="be571033-0284-4881-949c-0e23a3343c05" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/student_home.php" afterPath="$PROJECT_DIR$/student_home.php" />
     </list>
     <ignored path="HW04.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,11 +36,26 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="22" column="53" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
+            <state relative-caret-position="180">
+              <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
               <folding>
-                <marker date="1478493662000" expanded="true" signature="725:765" ph="SELECT * FRO... reg_courses" />
-                <marker date="1478493662000" expanded="true" signature="1084:1130" ph="SELECT * FRO... users" />
+                <marker date="1478496860000" expanded="true" signature="1055:1095" ph="SELECT * FRO... reg_courses" />
+                <marker date="1478496860000" expanded="true" signature="1414:1460" ph="SELECT * FRO... users" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="student_home.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/student_home.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding>
+                <marker date="1478494921000" expanded="true" signature="353:399" ph="SELECT * FRO... department" />
+                <marker date="1478494921000" expanded="true" signature="843:916" ph="SELECT depar... department" />
+                <marker date="1478494921000" expanded="true" signature="1284:1352" ph="SELECT * FRO... courses" />
+                <marker date="1478494921000" expanded="true" signature="1593:1623" ph="SELECT crs_I... reg_courses" />
               </folding>
             </state>
           </provider>
@@ -69,8 +85,8 @@
         <option value="$PROJECT_DIR$/registerCourse.php" />
         <option value="$PROJECT_DIR$/database.php" />
         <option value="$PROJECT_DIR$/main.css" />
-        <option value="$PROJECT_DIR$/student_home.php" />
         <option value="$PROJECT_DIR$/department_list.php" />
+        <option value="$PROJECT_DIR$/student_home.php" />
         <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
@@ -248,7 +264,7 @@
       <workItem from="1478315521255" duration="525000" />
       <workItem from="1478316067178" duration="759000" />
       <workItem from="1478324257584" duration="6790000" />
-      <workItem from="1478493371588" duration="404000" />
+      <workItem from="1478493371588" duration="1551000" />
     </task>
     <task id="LOCAL-00001" summary="deleted legacy file, added TODO">
       <created>1475216194330</created>
@@ -313,11 +329,18 @@
       <option name="project" value="LOCAL" />
       <updated>1478472988646</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="turned login redirect into a function">
+      <created>1478493866053</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1478493866053</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32276000" />
+    <option name="totallyTimeSpent" value="33423000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
@@ -383,7 +406,8 @@
     <MESSAGE value="regCourse db access in for midterm" />
     <MESSAGE value="index page mostly working for hw5" />
     <MESSAGE value="hw5 todo prep" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw5 todo prep" />
+    <MESSAGE value="turned login redirect into a function" />
+    <option name="LAST_COMMIT_MESSAGE" value="turned login redirect into a function" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -397,11 +421,10 @@
         <state relative-caret-position="1545">
           <caret line="103" column="51" selection-start-line="103" selection-start-column="51" selection-end-line="103" selection-end-column="51" />
           <folding>
-            <element signature="e#6#52#0#PHP" expanded="false" />
-            <marker date="1476730811000" expanded="true" signature="133:179" ph="SELECT * FRO... department" />
-            <marker date="1476730811000" expanded="true" signature="623:696" ph="SELECT depar... department" />
-            <marker date="1476730811000" expanded="true" signature="1064:1132" ph="SELECT * FRO... courses" />
-            <marker date="1476730811000" expanded="true" signature="1373:1403" ph="SELECT crs_I... reg_courses" />
+            <marker date="1478494921000" expanded="true" signature="353:399" ph="SELECT * FRO... department" />
+            <marker date="1478494921000" expanded="true" signature="843:916" ph="SELECT depar... department" />
+            <marker date="1478494921000" expanded="true" signature="1284:1352" ph="SELECT * FRO... courses" />
+            <marker date="1478494921000" expanded="true" signature="1593:1623" ph="SELECT crs_I... reg_courses" />
           </folding>
         </state>
       </provider>
@@ -485,11 +508,10 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#6#52#0#PHP" expanded="false" />
-            <marker date="1476730811000" expanded="true" signature="133:179" ph="SELECT * FRO... department" />
-            <marker date="1476730811000" expanded="true" signature="623:696" ph="SELECT depar... department" />
-            <marker date="1476730811000" expanded="true" signature="1064:1132" ph="SELECT * FRO... courses" />
-            <marker date="1476730811000" expanded="true" signature="1373:1403" ph="SELECT crs_I... reg_courses" />
+            <marker date="1478494921000" expanded="true" signature="353:399" ph="SELECT * FRO... department" />
+            <marker date="1478494921000" expanded="true" signature="843:916" ph="SELECT depar... department" />
+            <marker date="1478494921000" expanded="true" signature="1284:1352" ph="SELECT * FRO... courses" />
+            <marker date="1478494921000" expanded="true" signature="1593:1623" ph="SELECT crs_I... reg_courses" />
           </folding>
         </state>
       </provider>
@@ -538,11 +560,10 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#6#52#0#PHP" expanded="false" />
-            <marker date="1476730811000" expanded="true" signature="133:179" ph="SELECT * FRO... department" />
-            <marker date="1476730811000" expanded="true" signature="623:696" ph="SELECT depar... department" />
-            <marker date="1476730811000" expanded="true" signature="1064:1132" ph="SELECT * FRO... courses" />
-            <marker date="1476730811000" expanded="true" signature="1373:1403" ph="SELECT crs_I... reg_courses" />
+            <marker date="1478494921000" expanded="true" signature="353:399" ph="SELECT * FRO... department" />
+            <marker date="1478494921000" expanded="true" signature="843:916" ph="SELECT depar... department" />
+            <marker date="1478494921000" expanded="true" signature="1284:1352" ph="SELECT * FRO... courses" />
+            <marker date="1478494921000" expanded="true" signature="1593:1623" ph="SELECT crs_I... reg_courses" />
           </folding>
         </state>
       </provider>
@@ -591,11 +612,10 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#6#52#0#PHP" expanded="false" />
-            <marker date="1476730811000" expanded="true" signature="133:179" ph="SELECT * FRO... department" />
-            <marker date="1476730811000" expanded="true" signature="623:696" ph="SELECT depar... department" />
-            <marker date="1476730811000" expanded="true" signature="1064:1132" ph="SELECT * FRO... courses" />
-            <marker date="1476730811000" expanded="true" signature="1373:1403" ph="SELECT crs_I... reg_courses" />
+            <marker date="1478494921000" expanded="true" signature="353:399" ph="SELECT * FRO... department" />
+            <marker date="1478494921000" expanded="true" signature="843:916" ph="SELECT depar... department" />
+            <marker date="1478494921000" expanded="true" signature="1284:1352" ph="SELECT * FRO... courses" />
+            <marker date="1478494921000" expanded="true" signature="1593:1623" ph="SELECT crs_I... reg_courses" />
           </folding>
         </state>
       </provider>
@@ -644,11 +664,10 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#6#52#0#PHP" expanded="false" />
-            <marker date="1476730811000" expanded="true" signature="133:179" ph="SELECT * FRO... department" />
-            <marker date="1476730811000" expanded="true" signature="623:696" ph="SELECT depar... department" />
-            <marker date="1476730811000" expanded="true" signature="1064:1132" ph="SELECT * FRO... courses" />
-            <marker date="1476730811000" expanded="true" signature="1373:1403" ph="SELECT crs_I... reg_courses" />
+            <marker date="1478494921000" expanded="true" signature="353:399" ph="SELECT * FRO... department" />
+            <marker date="1478494921000" expanded="true" signature="843:916" ph="SELECT depar... department" />
+            <marker date="1478494921000" expanded="true" signature="1284:1352" ph="SELECT * FRO... courses" />
+            <marker date="1478494921000" expanded="true" signature="1593:1623" ph="SELECT crs_I... reg_courses" />
           </folding>
         </state>
       </provider>
@@ -810,25 +829,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/student_home.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-150">
-          <caret line="72" column="12" selection-start-line="72" selection-start-column="12" selection-end-line="72" selection-end-column="12" />
+        <state relative-caret-position="75">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
-            <element signature="e#6#52#0#PHP" expanded="false" />
-            <marker date="1476730811000" expanded="true" signature="133:179" ph="SELECT * FRO... department" />
-            <marker date="1476730811000" expanded="true" signature="623:696" ph="SELECT depar... department" />
-            <marker date="1476730811000" expanded="true" signature="1064:1132" ph="SELECT * FRO... courses" />
-            <marker date="1476730811000" expanded="true" signature="1373:1403" ph="SELECT crs_I... reg_courses" />
+            <marker date="1478494921000" expanded="true" signature="353:399" ph="SELECT * FRO... department" />
+            <marker date="1478494921000" expanded="true" signature="843:916" ph="SELECT depar... department" />
+            <marker date="1478494921000" expanded="true" signature="1284:1352" ph="SELECT * FRO... courses" />
+            <marker date="1478494921000" expanded="true" signature="1593:1623" ph="SELECT crs_I... reg_courses" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="22" column="53" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
+        <state relative-caret-position="180">
+          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
           <folding>
-            <marker date="1478493662000" expanded="true" signature="725:765" ph="SELECT * FRO... reg_courses" />
-            <marker date="1478493662000" expanded="true" signature="1084:1130" ph="SELECT * FRO... users" />
+            <marker date="1478496860000" expanded="true" signature="1055:1095" ph="SELECT * FRO... reg_courses" />
+            <marker date="1478496860000" expanded="true" signature="1414:1460" ph="SELECT * FRO... users" />
           </folding>
         </state>
       </provider>

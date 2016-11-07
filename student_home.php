@@ -5,6 +5,16 @@
  */
 
 require_once('database.php');
+session_start();
+
+$studentName = "default";
+
+
+//TODO: first check for if there's a role value
+if (isset($_SESSION["name"])) {
+    $studentName = $_SESSION["name"];
+}
+//TODO: set up to work with cookie instead of session
 
 
 // Get all departments
@@ -62,22 +72,22 @@ $statement4->closeCursor();
 <main>
     <h1 style="color: black">University Courses Manager</h1>
     <hr>
-    <h1>Courses List</h1>
-    <aside>
-        <!-- display a list of departments -->
-        <h2>Departments</h2>
-        <nav>
-        <ul>
-            <?php foreach ($departments as $department) : ?>
-            <li>
-                <a href="?departmentID=<?php echo $department['departmentID']; ?>">
-                    <?php echo $department['departmentName']; ?>
-                </a>
-            </li>
-            <?php endforeach; ?>
-        </ul>
-        </nav>           
-    </aside>
+    <h1>Welcome Back <?php echo $studentName; ?></h1>
+<!--    <aside>-->
+<!--        <!-- display a list of departments -->
+<!--        <h2>Departments</h2>-->
+<!--        <nav>-->
+<!--        <ul>-->
+<!--            --><?php //foreach ($departments as $department) : ?>
+<!--            <li>-->
+<!--                <a href="?departmentID=--><?php //echo $department['departmentID']; ?><!--">-->
+<!--                    --><?php //echo $department['departmentName']; ?>
+<!--                </a>-->
+<!--            </li>-->
+<!--            --><?php //endforeach; ?>
+<!--        </ul>-->
+<!--        </nav>           -->
+<!--    </aside>-->
 
     <section>
         <!-- display a table of products -->

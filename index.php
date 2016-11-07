@@ -5,7 +5,7 @@
  * Date: 11/5/16
  * Time: 1:38 AM
  */
-session_start();
+session_start(); //*V>< DONT FORGET SESSION START ><V*
 
 require_once('database.php');
 
@@ -20,7 +20,15 @@ if (isset( $_POST["username"]) ) {
         if ($user != null) {
             if ($user["password"] == $_POST["password"]) {
 
-                //TODO: need to set session/cookie value before redirecting
+                if ($_POST["rememberBox"] == true) {
+                    //TODO: set a cookie instead of a session
+                }
+
+                $_SESSION["role"] = $user["role"];
+                $_SESSION["name"] = $user["firstName"];
+                if ($user["role"] == "student") {
+                    $_SESSION["deptID"] = $user["deptID"];
+                }
 
                 redirectUserToHome($user);
             }
